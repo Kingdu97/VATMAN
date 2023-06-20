@@ -5,6 +5,12 @@
 본 github은 10조 팔도비빔면(박진용, 박태남, 정용태, 백두산)의 VATMAN논문에 대한 코드를 정리하여 업로드한 페이지입니다. 
 
 
+### 모델 아키텍쳐 👀
+
+![image](https://github.com/Kingdu97/VATMAN_30h/assets/122776983/2e2fd1cb-2de4-4dcb-b479-6c0ed9b9e081)
+
+
+
 
 ### 논문 요약😃
 
@@ -34,14 +40,6 @@
 [97dosan@naver.com](mailto:97dosan@naver.com)
 
 [1] Ramon Sanabria, Ozan Caglayan, Shruti Palaskar, Desmond Elliott, Loïc Barrault, Lucia Specia, and Florian Metze. 2018. "How2: a large-scale dataset for multimodal language understanding." arXiv preprint arXiv:1811.00347. ↩
-
-
-
-### 모델 아키텍쳐 👀
-
-![image-20230620170856438](D:\kingdu\논문\git\image-20230620170856438.png)
-
-
 
 
 
