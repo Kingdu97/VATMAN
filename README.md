@@ -1,4 +1,4 @@
-### 고려대학교 23-1 비정형데이터 Term project 10조 Github
+### 고려대학교 23-1 비정형데이터 Term Project 10조 Github
 
 ---
 
@@ -34,6 +34,7 @@
 
 30시간의 데이터셋은 300시간의 비디오, 오디오 및 텍스트 데이터셋에서 랜덤 샘플링하여 추출한 데이터입니다. 이 데이터셋에는 학습 데이터 1,279개, 검증 데이터 52개, 테스트 데이터 12개로 총 1,343개의 데이터가 포함되어 있습니다. 데이터 배포 관련 URL 주소는 아래와 같습니다.
 ](https://srvk.github.io/how2-dataset/)
+<br/>
 [1] Ramon Sanabria, Ozan Caglayan, Shruti Palaskar, Desmond Elliott, Loïc Barrault, Lucia Specia, and Florian Metze. 2018. "How2: a large-scale dataset for multimodal language understanding." arXiv preprint arXiv:1811.00347. ↩
 
 <br/><br/>
@@ -44,7 +45,7 @@
 
 - 유니모달(**Text** to text)
 
-`python .src/run_30_text_only_t5.py`
+`python .src/run_30_text_only_bart.py`
 
 - 다이모달(**Text+Video** to text)
 
@@ -54,7 +55,7 @@
 
 `python .src/run_30_tri_modal_bart.py`
 
-> backbone 모델을 bart로 바꾸고싶으면 config 내 model name 만 수정
+> backbone 모델을 t5로 바꾸고싶으면 config 내 model name 만 수정
 
 <br/><br/>
 
