@@ -11,7 +11,7 @@
 
 ![image](https://github.com/Kingdu97/VATMAN_30h/assets/122776983/2e2fd1cb-2de4-4dcb-b479-6c0ed9b9e081)
 
-
+<br/><br/>
 
 
 ### 논문 요약😃
@@ -24,7 +24,7 @@
 
 따라서 본 논문에서는 **비교적 간단하지만 효과적인 어탠션 레이어를 추가사용하여 텍스트 생성능력을 해치지 않으면서 시각적, 청각적 정보를 차례로 주입시키는 방법으로 성능을 향상시킨다**.
 
-
+<br/><br/>
 
 
 ### dataset✔
@@ -44,7 +44,7 @@
 
 [1] Ramon Sanabria, Ozan Caglayan, Shruti Palaskar, Desmond Elliott, Loïc Barrault, Lucia Specia, and Florian Metze. 2018. "How2: a large-scale dataset for multimodal language understanding." arXiv preprint arXiv:1811.00347. ↩
 
-
+<br/><br/>
 
 ### Code🐱‍🏍
 
@@ -63,4 +63,12 @@
 `python .src/run_30_tri_modal_bart.py`
 
 > backbone 모델을 bart로 바꾸고싶으면 config 내 model name 만 수정
+
+<br/><br/>
+
+<br/><br/>
+
+### Results🎁
+
+![image](https://github.com/Kingdu97/VATMAN_30h/assets/122776983/12482ae2-33a6-48a8-91d3-aaf18d182e64)
 
