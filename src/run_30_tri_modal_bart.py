@@ -16,7 +16,7 @@ if __name__ == '__main__':
     # for training
     parser = argparse.ArgumentParser()
     # tri_modal_bart 새로 추가
-    parser.add_argument('-model', default='tri_modal_t5', type=str, help='We have for models to choose, text_only_bart, multi_modal_bart,  text_only_t5 and multi_modal_t5, tri_modal_bart')
+    parser.add_argument('-model', default='tri_modal_bart', type=str, help='We have for models to choose, text_only_bart, multi_modal_bart,  text_only_t5 and multi_modal_t5, tri_modal_bart')
     parser.add_argument('-checkpoint', default ='/root/VG-GPLMs/src/checkpoint/_30_tri_modal_bart/last.ckpt', type=str, help='The checkpoint path') # 처음 시작할때는 가져올 checkpoint 없음. default = '' 이거 하면 시작도 안됨. '-checkpoint', default='여기다가 ㄱㄱ', type=str,
     parser.add_argument('-train_src_path', default='/root/VG-GPLMs/src/dataset30/sum_train_30/tran.tok.txt', type=str, help='training input data path (dialogue)') #####여기서부터 train 시에 바꿀필요 없음
     parser.add_argument('-train_tgt_path', default='/root/VG-GPLMs/src/dataset30/sum_train_30/desc.tok.txt', type=str, help='training output data path (summary)') 
@@ -29,7 +29,7 @@ if __name__ == '__main__':
     parser.add_argument('-audio_feature_path', default='/root/VG-GPLMs/src/dataset30/audio_30/concat/', type=str, help='audio features path') #####여기까지는 train 시에 바꿀필요 없음(새롭게 생긴 줄)
     parser.add_argument('-val_save_file', default='/root/VG-GPLMs/src/evaluation/temp_valid_file_30_tri_modal_bart', type=str, help='the validation results for each epoch') # 기존은 /temp_valid_file
     parser.add_argument('-test_save_file', default='./evaluation/results/test_summaries.txt', type=str, help='the generated summary for testing data') # 기존은 /test_summaries.txt
-    parser.add_argument('-log_name', default='tri_modal_t5', type=str, help='lightning log path')   # 모델에 따라 바꿔줘야함. lightning log로 저장해줌 
+    parser.add_argument('-log_name', default='tri_modal_bart', type=str, help='lightning log path')   # 모델에 따라 바꿔줘야함. lightning log로 저장해줌 
     parser.add_argument('-gpus', default='0', type=str, help='choose gpus to run the code, you can choose multipple gpus') # 0,1,2,3 했었어야함 그래야 4개
     parser.add_argument('-batch_size', type=int, default=8, help='batch size for each gpu')     # data30hours batch4로 시작해보겠음!
     parser.add_argument('-max_input_len', type=int, default=512, help='the maximun length for input dialogue')
