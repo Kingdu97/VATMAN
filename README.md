@@ -10,7 +10,7 @@
 
 ---
 
-![image](https://github.com/Kingdu97/VATMAN_30h/assets/122776983/2e2fd1cb-2de4-4dcb-b479-6c0ed9b9e081)
+![image](https://github.com/Kingdu97/VATMAN_30h/assets/122776983/d074fd9f-4055-406b-86d6-a2237f57f17b)
 
 <br/><br/>
 
