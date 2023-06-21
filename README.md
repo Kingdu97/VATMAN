@@ -1,8 +1,17 @@
-## 고려대학교 23-1 비정형데이터 Term Project 10조 Github
+### 고려대학교 23-1 비정형데이터 Term project 10조 Github
 
 ---
 
-본 github은 10조 팔도비빔면(정진용, 박태남, 정용태, 백두산)의 VATMAN논문에 대한 코드를 정리하여 업로드한 페이지입니다. 
+본 github은 10조 팔도비빔면의 VATMAN논문에 대한 코드를 정리하여 업로드한 페이지입니다. 
+
+| 10 조 구성원 |         E-mail         |
+| :----------: | :--------------------: |
+|    박태남    | taenampark@korea.ac.kr |
+|    백두산    |  97dosan@korea.ac.kr   |
+|    정용태    | yongte2005@korea.ac.kr |
+|    정진용    |  jy_jeong@korea.ac.kr  |
+
+
 
 <br/><br/>
 
